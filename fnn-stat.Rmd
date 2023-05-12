@@ -227,7 +227,7 @@ plot(intnn, conf_int = TRUE, which = c(1, 4))
 .pull-left[ 
 ```{r plot1, cache = TRUE, echo = FALSE, fig.height = 6}
 par(mar=c(5,6,4,2)+.1) 
-plot(intnn, which = 1, conf_int = FALSE, ylim = c(0, 0.5), cex.axis = 1.7,
+plot(intnn, which = 1, conf_int = TRUE, ylim = c(0, 0.5), cex.axis = 1.7,
      cex.caption = 2.5, cex.lab = 2.2)
 ```  
 ]  
@@ -237,7 +237,7 @@ plot(intnn, which = 1, conf_int = FALSE, ylim = c(0, 0.5), cex.axis = 1.7,
 .pull-right[ 
 ```{r plot2, cache = TRUE, echo = FALSE, fig.height = 6}
 par(mar=c(5,6,4,2)+.1) 
-plot(intnn, which = 4, conf_int = FALSE, ylim = c(0, 0.5), cex.axis = 1.7,
+plot(intnn, which = 4, conf_int = TRUE, ylim = c(0, 0.5), cex.axis = 1.7,
      cex.caption = 2.5, cex.lab = 2.2)
 ```  
 ] 
